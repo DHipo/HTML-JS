@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+.navtop{
+    background: linear-gradient(90deg, black, grey);
+    overflow: hidden;
+}
+
+.navtop a{
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navtop a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.navtop a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.img_background{
+    background-image: url("img/luminous-lake-amy-scholten.jpg");
+    filter: saturate(10px);
+    -webkit-filter: saturate(10px);
+
+    margin-top: 10px;
+    height: 92%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+#title h1{
+    color: #cac9c9ec;
+    position: absolute;
+    filter: blur(10px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto Mono', monospace;
+}

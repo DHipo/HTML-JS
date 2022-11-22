@@ -1,0 +1,12 @@
+html{
+    margin: 0;
+    padding: 15%;
+    background: linear-gradient(10deg, #01e796, grey) no-repeat;
+}
+
+.div_main{
+    text-align: center;
+    position: fixed;
+    transform: translateY(-300px);
+    border-color: violet;
+}
